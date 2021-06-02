@@ -20,6 +20,7 @@ class App extends React.Component{
 
     async componentDidMount(){
         this.getMovies();
+        console.log(this.state.movies)
     }
 
     render(){
